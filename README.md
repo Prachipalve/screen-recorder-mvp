@@ -142,20 +142,3 @@ src/
 
 - Deploy fully on Vercel + external storage provider
 
-### 🎥 Demo
-
-Deliverable options:
-
-- Live demo link (optional)
-
-- OR 2–3 minute screen recording showing:
-
-1. Record screen + mic
-
-2. Trim export
-
-3. Upload + generate share link
-
-4. Open share link & analytics update
-
-5. Heatmap + copy link + download toggle
