@@ -106,10 +106,10 @@ export default function ShareClient({ id }: { id: string }) {
             await sendProgress(video.currentTime);
 
             // refresh sometimes so UI updates without spamming
-            if (Math.random() < 0.25) {
+            if (Math.random() < 0.15) {
                 await refreshAnalytics();
             }
-        }, 2000);
+        }, 1000);
 
         return () => clearInterval(interval);
     }, [id]);
